@@ -22,7 +22,7 @@
 			font-family: '微软雅黑';
 			font-size: 14px;
 		}
-		div#main
+		div#wrapper
 		{
 			margin:0px auto;
 			padding: 0px;
@@ -140,9 +140,7 @@
 /*-----------------------maincontent------------------------*/
 		div#maincontent 
 		{
-
-			float: left;
-			margin: 0;
+			margin: 0 197px 0 195px;
 			padding: 0;
 			border: 0;
 			width: 740px;
@@ -234,7 +232,7 @@
 
 		div#rightnav
 		{
-			float: left;
+			float: right;
 			margin: 0px;
 			padding: 0;
 			border: 0;
@@ -300,7 +298,6 @@
 
 		div#footer
 		{
-			clear: both;
 			margin: 0 0 0 12px;
 			padding: 0;
 			border-bottom: 10px solid #ffffff;
@@ -328,12 +325,10 @@
 			color: #000000;
 		}
 
-
-
 	</style>
 </head>
 <body>
-	<div id="main">
+	<div id="wrapper">
 		<div id="head">
 			<a href="http://www.w3school.com.cn/index.html" title="w3school 在线教程">
 			<img border="0" src="pictures/head.jpg">
@@ -431,83 +426,7 @@
 			<h2 id="about"><a href="http://www.w3school.com.cn/about/index.asp" title="关于 W3School" id="link_about">关于 W3School</a></h2>
 			<h2 id="help"><a href="http://www.w3school.com.cn/about/about_helping.asp" title="帮助 W3School" id="link_help">帮助 W3School</a></h2>
 			</ul>
-		</div>
-
-		<div id="maincontent">
-			<div id="first">
-				<h2>领先的 Web 技术教程 - 全部免费</h2>
-				<p>在 w3school，你可以找到你所需要的所有的网站建设教程。</p>
-				<p>从基础的 HTML 到 CSS，乃至进阶的XML、SQL、JS、PHP 和 ASP.NET。</p>
-				<p><strong>从左侧的菜单选择你需要的教程！</strong></p>
-			</div>
-
-			<div class="pic">
-				<img src="pictures/site_photoref.jpg" />
-				<h3>完整的网站技术参考手册</h3>
-				<p>我们的参考手册涵盖了网站技术的方方面面。</p>
-				<p>其中包括W3C的标准技术：HTML、CSS、XML 。以及其他的技术，诸如JavaScript、PHP、SQL等等。</p>
-			</div>
-
-			<div class="pic">
-				<img src="pictures/site_photoexa.jpg" />
-				<h3>在线实例测试工具</h3>
-				<p>在w3school，我们提供上千个实例。</p>
-				<p>通过使用我们的在线编辑器，你可以编辑这些例子，并对代码进行实验。</p>
-			</div>
-
-			<div class="pic">
-				<img src="pictures/site_photoqe.jpg" />
-				<h3>快捷易懂的学习方式</h3>
-				<p>一寸光阴一寸金，因此，我们为您提供快捷易懂的学习内容。</p>
-				<p>在这里，您可以通过一种易懂的便利的模式获得您需要的任何知识。</p>
-			</div>
-
-			<div class="linka">
-				<h3>从何入手？</h3>
-				<p>什么是一个Web建设者需要学习的知识呢？</p>
-				<p>W3School将为您回答这个问题，在您成为专业Web开发者的路上助一臂之力，从而更好地应对未来的挑战。</p>
-				<p>如果您是初学者，请您阅读《<a href="http://www.w3school.com.cn/web/index.asp" title="网站构建初级教程">网站构建初级教程</a>》。</p>
-				<p>如果您是开发者，请您阅读《<a href="http://www.w3school.com.cn/site/index.asp" title="网站构建">网站构建高级教程</a>》。</p>
-			</div>
-
-			<div class="linka">
-				<h3>W3School 新闻</h3>
-				<p><a href="http://www.w3school.com.cn/cssref/index.asp" title="CSS 参考手册">CSS3 参考手册</a> 已上线，敬请批评指正。</p>
-			</div>
-
-			<div class="linka">
-				<h3>W3School 更新信息</h3>
-				<p>
-					<a href="http://www.w3school.com.cn/jsref/dom_obj_all.asp" title="HTML DOM Element 对象">HTML DOM Element 对象</a>
-					&nbsp;&nbsp;&nbsp;
-					<a href="http://www.w3school.com.cn/jsref/dom_obj_attributes.asp" title="HTML DOM Attribute 对象">HTML DOM Attribute 对象</a>
-					&nbsp;&nbsp;&nbsp;
-				</p>
-
-				<p>
-					<a href="http://www.w3school.com.cn/php/php_datatypes.asp" title="PHP 数据类型">PHP 数据类型</a>
-					&nbsp;&nbsp;&nbsp;
-					<a href="http://www.w3school.com.cn/php/php_echo_print.asp" title="PHP 5 echo 和 print 语句">PHP 5 echo 和 print 语句</a>
-					&nbsp;&nbsp;&nbsp;
-					<a href="http://www.w3school.com.cn/php/php_constants.asp" title="PHP 常量">PHP 常量</a>
-					&nbsp;&nbsp;&nbsp;
-					<a href="http://www.w3school.com.cn/php/php_arrays_sort.asp" title="PHP 数组排序">PHP 数组排序</a>
-					&nbsp;&nbsp;&nbsp;
-					<a href="http://www.w3school.com.cn/php/php_superglobals.asp" title="PHP 全局变量 - 超全局变量">PHP 超全局变量</a>
-					&nbsp;&nbsp;&nbsp;
-					<a href="http://www.w3school.com.cn/php/php_arrays_multi.asp" title="PHP 多维数组">PHP 多维数组</a>
-				</p>
-			</div>
-
-			<div id="friend">
-				<h3>W3School 友情链接</h3>
-				<p class="partner">
-					<a href="http://mozilla.com.cn/">Firefox 中文社区</a> &nbsp;&nbsp;&nbsp; 
-					<a href="http://www.chinaw3c.org/">W3C 中国总部</a> &nbsp;&nbsp;&nbsp; 
-					<a href="http://www.lhtz.com/">中国量化投资网</a>
-				</p>
-			</div>
-		</div>
+		</div>	
 
 		<div id="rightnav">
 			<div id="search">
@@ -593,6 +512,82 @@
 				<li><a href="http://www.w3school.com.cn/site/site_validate.asp" title="网页验证">验证XML</a></li>
 				<li><a href="http://www.w3school.com.cn/site/site_validate.asp" title="网页验证">验证WML</a></li>
 			</ul>
+		</div>
+		
+		<div id="maincontent">
+			<div id="first">
+				<h2>领先的 Web 技术教程 - 全部免费</h2>
+				<p>在 w3school，你可以找到你所需要的所有的网站建设教程。</p>
+				<p>从基础的 HTML 到 CSS，乃至进阶的XML、SQL、JS、PHP 和 ASP.NET。</p>
+				<p><strong>从左侧的菜单选择你需要的教程！</strong></p>
+			</div>
+
+			<div class="pic">
+				<img src="pictures/site_photoref.jpg" />
+				<h3>完整的网站技术参考手册</h3>
+				<p>我们的参考手册涵盖了网站技术的方方面面。</p>
+				<p>其中包括W3C的标准技术：HTML、CSS、XML 。以及其他的技术，诸如JavaScript、PHP、SQL等等。</p>
+			</div>
+
+			<div class="pic">
+				<img src="pictures/site_photoexa.jpg" />
+				<h3>在线实例测试工具</h3>
+				<p>在w3school，我们提供上千个实例。</p>
+				<p>通过使用我们的在线编辑器，你可以编辑这些例子，并对代码进行实验。</p>
+			</div>
+
+			<div class="pic">
+				<img src="pictures/site_photoqe.jpg" />
+				<h3>快捷易懂的学习方式</h3>
+				<p>一寸光阴一寸金，因此，我们为您提供快捷易懂的学习内容。</p>
+				<p>在这里，您可以通过一种易懂的便利的模式获得您需要的任何知识。</p>
+			</div>
+
+			<div class="linka">
+				<h3>从何入手？</h3>
+				<p>什么是一个Web建设者需要学习的知识呢？</p>
+				<p>W3School将为您回答这个问题，在您成为专业Web开发者的路上助一臂之力，从而更好地应对未来的挑战。</p>
+				<p>如果您是初学者，请您阅读《<a href="http://www.w3school.com.cn/web/index.asp" title="网站构建初级教程">网站构建初级教程</a>》。</p>
+				<p>如果您是开发者，请您阅读《<a href="http://www.w3school.com.cn/site/index.asp" title="网站构建">网站构建高级教程</a>》。</p>
+			</div>
+
+			<div class="linka">
+				<h3>W3School 新闻</h3>
+				<p><a href="http://www.w3school.com.cn/cssref/index.asp" title="CSS 参考手册">CSS3 参考手册</a> 已上线，敬请批评指正。</p>
+			</div>
+
+			<div class="linka">
+				<h3>W3School 更新信息</h3>
+				<p>
+					<a href="http://www.w3school.com.cn/jsref/dom_obj_all.asp" title="HTML DOM Element 对象">HTML DOM Element 对象</a>
+					&nbsp;&nbsp;&nbsp;
+					<a href="http://www.w3school.com.cn/jsref/dom_obj_attributes.asp" title="HTML DOM Attribute 对象">HTML DOM Attribute 对象</a>
+					&nbsp;&nbsp;&nbsp;
+				</p>
+
+				<p>
+					<a href="http://www.w3school.com.cn/php/php_datatypes.asp" title="PHP 数据类型">PHP 数据类型</a>
+					&nbsp;&nbsp;&nbsp;
+					<a href="http://www.w3school.com.cn/php/php_echo_print.asp" title="PHP 5 echo 和 print 语句">PHP 5 echo 和 print 语句</a>
+					&nbsp;&nbsp;&nbsp;
+					<a href="http://www.w3school.com.cn/php/php_constants.asp" title="PHP 常量">PHP 常量</a>
+					&nbsp;&nbsp;&nbsp;
+					<a href="http://www.w3school.com.cn/php/php_arrays_sort.asp" title="PHP 数组排序">PHP 数组排序</a>
+					&nbsp;&nbsp;&nbsp;
+					<a href="http://www.w3school.com.cn/php/php_superglobals.asp" title="PHP 全局变量 - 超全局变量">PHP 超全局变量</a>
+					&nbsp;&nbsp;&nbsp;
+					<a href="http://www.w3school.com.cn/php/php_arrays_multi.asp" title="PHP 多维数组">PHP 多维数组</a>
+				</p>
+			</div>
+
+			<div id="friend">
+				<h3>W3School 友情链接</h3>
+				<p class="partner">
+					<a href="http://mozilla.com.cn/">Firefox 中文社区</a> &nbsp;&nbsp;&nbsp; 
+					<a href="http://www.chinaw3c.org/">W3C 中国总部</a> &nbsp;&nbsp;&nbsp; 
+					<a href="http://www.lhtz.com/">中国量化投资网</a>
+				</p>
+			</div>
 		</div>
 
 		<div id="footer">
